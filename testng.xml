@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite  name="Suite">
+
+<listeners>
+<listner class--name = "Api.utilities.ExtentReportManager" />
+</listeners>
+
+
+	<test thread-count="5" name="PetTests">
+		<classes>
+			<!--<class name="Api.test.UserTests" />-->
+			<class name="Api.test.UserTests2" />
+		<!--  <class name="api.test.DDTests"/> -->
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+
+
+</suite> <!-- Suite -->
+
