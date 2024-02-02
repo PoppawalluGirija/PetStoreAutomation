@@ -11,9 +11,9 @@
 
 	<test thread-count="5" name="PetTests">
 		<classes>
-			<!--<class name="Api.test.UserTests" />-->
+			<class name="Api.test.UserTests" />
 			<class name="Api.test.UserTests2" />
-		<!--  <class name="api.test.DDTests"/> -->
+		 <!--<class name="api.test.DDTests"/> -->
 		</classes>
 	</test> <!-- Test -->
 	
